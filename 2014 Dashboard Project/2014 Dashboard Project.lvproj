@@ -21,10 +21,6 @@
 			<Item Name="Open Playback Panel.vi" Type="VI" URL="../Open Playback Panel.vi"/>
 			<Item Name="Build Simple Skeleton Data.vi" Type="VI" URL="../Build Simple Skeleton Data.vi"/>
 		</Item>
-		<Item Name="2014 Target Detection.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Target Detection/2014 Target Detection.vi"/>
-		<Item Name="Score and Rank Target Objects.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Target Detection/Score and Rank Target Objects.vi"/>
-		<Item Name="Process Image for Target.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Target Detection/Process Image for Target.vi"/>
-		<Item Name="Calibration Helper.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Target Detection/Calibration Helper.vi"/>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -196,13 +192,6 @@
 				<Item Name="WPI_DashboardUpdate Table Values.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Dashboard/WPI_DashboardUpdate Table Values.vi"/>
 				<Item Name="SD Read Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Boolean.vi"/>
 				<Item Name="SD Read Number.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Number.vi"/>
-				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
-				<Item Name="Particle Parameters" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Particle Parameters"/>
-				<Item Name="IMAQ GetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageSize"/>
-				<Item Name="IMAQ Overlay Rectangle" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Rectangle"/>
-				<Item Name="IMAQ Overlay Text" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Text"/>
-				<Item Name="IMAQ ReadFile" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile"/>
-				<Item Name="ROI Descriptor" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/ROI Descriptor"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -211,16 +200,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
-			<Item Name="TargetType.ctl" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Target Detection/TargetType.ctl"/>
-			<Item Name="Sorted Particle Report.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Target Detection/Sorted Particle Report.vi"/>
-			<Item Name="Aspect Ratio Score.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Target Detection/Aspect Ratio Score.vi"/>
-			<Item Name="Rectangularity Score.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Target Detection/Rectangularity Score.vi"/>
-			<Item Name="Separate Particles.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Target Detection/Separate Particles.vi"/>
-			<Item Name="Rank HV combos.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Target Detection/Rank HV combos.vi"/>
-			<Item Name="Label Targets.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Target Detection/Label Targets.vi"/>
-			<Item Name="Compute Target Distances.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Target Detection/Compute Target Distances.vi"/>
-			<Item Name="Compute DistanceToTarget.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Target Detection/Compute DistanceToTarget.vi"/>
-			<Item Name="Normalize Path.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Target Detection/Normalize Path.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC PC Dashboard" Type="EXE">
@@ -237,7 +216,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F12754D6-B5E0-496F-B50C-3EDB6F368199}</Property>
-				<Property Name="Bld_version.build" Type="Int">23</Property>
+				<Property Name="Bld_version.build" Type="Int">32</Property>
 				<Property Name="Bld_version.major" Type="Int">5</Property>
 				<Property Name="Destination[0].destName" Type="Str">Dashboard.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/FRC Dashboard Project/FRC PC Dashboard/Dashboard.exe</Property>
@@ -246,7 +225,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/FRC Dashboard Project/FRC PC Dashboard/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Support/App EXE.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9B1259F4-1A1C-41C0-833E-08D530DFB0E5}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{19F19AB7-C034-456B-A5C2-01A303F908BC}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Dashboard Main.vi</Property>
